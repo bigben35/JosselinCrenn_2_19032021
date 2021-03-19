@@ -1,12 +1,17 @@
-@font-face {
+body {
     font-family: 'Raleway', 'sans-serif';
-src: url('static/Raleway-Medium.ttf');
+}
 
 header {
     display: flex;
-}
+    }
+
 
 h1 {
     color: red;
+
 }
 
+ul {
+    list-style-type: none;
+    }

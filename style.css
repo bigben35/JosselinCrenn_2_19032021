@@ -4,6 +4,7 @@ body {
 
 header {
     display: flex;
+    justify-content: flex-end;
     }
 
 
@@ -15,3 +16,19 @@ h1 {
 ul {
     list-style-type: none;
     }
+
+#marseille {
+
+    background-color: #F2F2F2;
+}
+
+#populaire {
+
+    background-color: #F2F2F2;
+}
+
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+}

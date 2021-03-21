@@ -9,12 +9,13 @@ header {
 
 
 
-#marseille {
-
+.marseille {
+    
     background-color: #F2F2F2;
+    width: 66%;
 }
 
-#populaire {
+.populaire {
 
     background-color: #F2F2F2;
 }
@@ -41,4 +42,9 @@ nav ul li a {
 
 footer ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

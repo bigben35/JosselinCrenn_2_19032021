@@ -5,6 +5,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin: auto;
     }
 
 
@@ -24,7 +25,7 @@ header {
 footer {
     display: flex;
     background-color: #F2F2F2;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav ul { 
@@ -33,18 +34,45 @@ nav ul {
     
 }
 nav ul li {
-    align-items: space-between;
+    justify-content: space-between;
 }
 
 nav ul li a {
     text-decoration: none;
 }
 
-footer ul {
-    list-style-type: none;
+footer {
+    padding: 3% 3%;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.filtre {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 66%;
+}
+
+#page {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.àpropos {
+    display: flex;
+    flex-direction: column;
+}
+
+.noshebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.assistance {
+    display: flex;
+    flex-direction: column;
 }

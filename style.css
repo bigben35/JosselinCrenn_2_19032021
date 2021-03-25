@@ -4,8 +4,8 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    justify-content:space-between;
+
     }
 h1 {
     font-size: 1.5em;
@@ -30,7 +30,8 @@ h2 {
 footer {
     display: flex;
     background-color: #F2F2F2;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
 
 nav ul { 
@@ -70,16 +71,19 @@ a {
 .àpropos {
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 
 .noshebergements {
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 
 .assistance {
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 
 #pop {
@@ -99,7 +103,7 @@ a {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-s
+
 #mapmarker {
 background-color: #DEEBFF;
 }
@@ -121,6 +125,8 @@ input::placeholder {
     border-radius: 15px;
     background-color: #DEEBFF;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -163,4 +169,25 @@ input::placeholder {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
+}
+
+.hebergement1 {
+    text-decoration: overline;
+}
+.cercle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: solid 1px #F2F2F2;
+   
+}
+
+i {
+    color: #0065FC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.étoilegrise {
+    opacity: 0.2;
 }

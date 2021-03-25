@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', 'sans-serif';
+    
 }
 
 header {
@@ -104,8 +105,9 @@ a {
     border-bottom-right-radius: 5px;
 }
 
-#mapmarker {
+.mapmarker {
 background-color: #DEEBFF;
+border: solid 1px #F2F2F2;
 }
 
 input::placeholder {
@@ -125,9 +127,9 @@ input::placeholder {
     border-radius: 15px;
     background-color: #DEEBFF;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav {
@@ -138,41 +140,50 @@ input::placeholder {
 
     display: flex;
     align-items: baseline;
-
+    
+    
 }
 
 .icônes {
-
     display: flex;
+    align-self: center;
+    
 }
 
 .éco { 
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
-    padding: auto;
+    align-items: center;
 }
 
 .famille {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
+    align-items: center;
+    
 }
 
 .rom {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
+    align-items: center;
 }
 
 .animaux {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
+    align-items: center;
 }
 
 .hebergement1 {
-    text-decoration: overline;
+    border-top: solid 1px black;
+    
+    
+    
 }
 .cercle2 {
     width: 20px;
@@ -190,4 +201,9 @@ i {
 
 .étoilegrise {
     opacity: 0.2;
+}
+
+.efra {
+    padding: 10px;
+    margin-right: 10px;
 }

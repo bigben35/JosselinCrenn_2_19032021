@@ -1,6 +1,9 @@
 body {
     font-family: 'Raleway', 'sans-serif';
+    overflow-x: hidden;
+    width: 100%;
     
+    ;
 }
 
 header {
@@ -14,11 +17,18 @@ h1 {
 
 h2 {
     font-size: 1.1em;
+    
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+
 }
 
 .marseille {
-    
     background-color: #F2F2F2;
+    border-radius: 20px;
     width: 66%;
 }
 
@@ -32,9 +42,12 @@ footer {
     display: flex;
     background-color: #F2F2F2;
     justify-content: space-evenly;
-
 }
 
+.àpropos {
+    margin-left: 3%;
+  }
+  
 nav ul { 
     list-style-type: none;
    display: flex;
@@ -65,8 +78,7 @@ a {
 }
 
 #page {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 3%;
 }
 
 .àpropos {
@@ -132,6 +144,17 @@ input::placeholder {
     align-items: center;
 }
 
+.cercle2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  solid 1px #F2F2F2;
+}
+
 .nav {
     display: flex;
     justify-content: space-evenly;
@@ -146,6 +169,7 @@ input::placeholder {
 
 .icônes {
     display: flex;
+    justify-content: space-between;
     align-self: center;
     
 }
@@ -181,16 +205,10 @@ input::placeholder {
 
 .hebergement1 {
     border-top: solid 1px black;
+    padding-top: 15px;
     
     
     
-}
-.cercle2 {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    border: solid 1px #F2F2F2;
-   
 }
 
 i {
@@ -204,6 +222,35 @@ i {
 }
 
 .efra {
-    padding: 10px;
-    margin-right: 10px;
+    
+    margin: 10px;
 }
+
+.container_hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.boxhebergement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    width: 16.5vw;
+    height: 13vw;
+    
+}
+
+.imagehebergement {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+
+}
+

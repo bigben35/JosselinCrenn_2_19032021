@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', 'sans-serif';
     overflow-x: hidden;
     width: 100%;
+    margin: auto;
     
 }
 
@@ -33,26 +34,39 @@ header {
     align-items: baseline;
 }
 
-.hebergement1 {
-        border-top: solid 1px black;
-        padding-top: 15px;
-        }   
-  
+
 nav ul { 
     list-style-type: none;
-   display: flex;
+    display: flex;
       
 }
 
 nav ul li {
 
-      justify-content: space-between;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+nav ul li:hover {
+    border-top: solid #0065FC 2px;
+    font-weight: bold;
+
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.menu a:hover {
+
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.inscrire {
+    color: #0065FC;
+    font-weight: bold;
 }
 
                                 /*SEARCH BAR*/
@@ -77,10 +91,10 @@ a {
     border: solid 1px #F2F2F2;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    color: black;
+    background-size: 1.3em;
                                 
         }
-                                
+   
 .placeholder {
                                 
     border: none;
@@ -204,7 +218,7 @@ i {
 .marseille {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 66%;
+    width: 67%;
 }
 
 .container_hebergement {
@@ -239,8 +253,9 @@ i {
                         /*POPULAIRE*/
 
 .populaire {
-
+        
         background-color: #F2F2F2;
+        width: 33%;
     }
 
 #pop {

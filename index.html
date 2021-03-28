@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>Projet 2!</title>
         <link rel = "preconnect" href = "https://fonts.gstatic.com">
-        <link href = "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel = "feuille de style">
+        <link href = "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel = "stylesheet">
         <script src="https://kit.fontawesome.com/dd4ba2d4ff.js" crossorigin="anonymous"></script>
     </head>
         
@@ -40,13 +40,11 @@
                                 <!--BARRE DE RECHERCHE-->
 
             <div id="barrederecherche">
-                <div class="mapmarker">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-
-                <span><input type="search" placeholder="Marseille, France"></span>
-                    
-                <button class="bouton"><a href="#"></a>Rechercher</button>
+                <span class="search">
+                    <span class="mapmarker"><i class="fas fa-map-marker-alt"></i></span>
+                    <input class="placeholder" type="search" placeholder="Marseille, France"/>
+                    <button class="bouton" type="submit" value="Rechercher">Rechercher</button>
+                </span>
                 
             </div>
 
@@ -85,12 +83,14 @@
 
                                 <!--MAIN-->
 
+        <main id="HEBERGEMENTS">
 
                                 <!--SECTION 1 HEBERGEMENTS-->
 
+
             <section class="marseille">
 
-                    <h2 id="hebergement">Hébergements à Marseille</h2>
+                    <h2>Hébergements à Marseille</h2>
 
             <div class="container_hebergement"> 
                 <div class="boxhebergement">
@@ -145,7 +145,6 @@
                             <i class="fas fa-star"></i>
                             <span class="étoilegrise"><i class="fas fa-star"></i></span>
                             <span class="étoilegrise"><i class="fas fa-star"></i></span>
-
                         </figcaption>
                     </figure>
                     </a>
@@ -224,6 +223,7 @@
                 </figure>
                 
             </section>
+        </main>
 
 
                                                 <!--SECTION 3 ACTIVITES-->
@@ -231,40 +231,40 @@
         
             <section class="activités">
             
-                    <h2 id="activité">Activités à Marseille</h2>
+                    <h2>Activités à Marseille</h2>
             <div class="container_activité"> 
 
-                <div class="image_activité 1">
+                <div class="image_activité_1">
                 <figure>
                     <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port" class="imageactivité">
                     <figcaption><h3>Vieux Port</h3></figcaption>
                 </figure>
                 </div> 
-                <div class="image_activité 2">
+                <div class="image_activité_2">
                 <figure>
                     <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort pomègues" class="imageactivité">
                     <figcaption><h3>Fort de Pomègues</h3></figcaption>
                 </figure>
                 </div>
-                <div class="image_activité 3">
+                <div class="image_activité_3">
                 <figure>
                     <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="îles du frioul" class="imageactivité">
                     <figcaption><h3>Îles du Frioul</h3></figcaption>
                 </figure>
                 </div>
-                <div class="image_activité 4">
+                <div class="image_activité_4">
                 <figure>
                     <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="calanques" class="imageactivité">
                     <figcaption><h3>Parc National des Calanques</h3></figcaption>
                 </figure>
                 </div>
-                <div class="image_activité 5"> 
+                <div class="image_activité_5"> 
                 <figure>
                     <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre-dame-de-la-garde" class="imageactivité">
                     <figcaption><h3>Notre-Dame-de-la-Garde</h3></figcaption>
                 </figure>
                 </div>
-                <div class="image_activité 6"> 
+                <div class="image_activité_6"> 
                 <figure>
                     <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp" class="imageactivité">
                     <figcaption><h3>Parc Longchamp</h3></figcaption>

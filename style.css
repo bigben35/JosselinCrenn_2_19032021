@@ -308,7 +308,6 @@ i {
 
 .boxpop {
     display: flex;
-    flex-wrap: nowrap;
     background-color: white;
     width: 85%;
     margin: auto;
@@ -328,67 +327,71 @@ i {
 }
 
 .titrepop {
-    margin: 0 4px 0 20px;
+    margin: 0 27px 0 20px;
+}
+
+.titrepop p {
+    margin: 0 0 35px;
 }
                     /* ACTIVITES*/
 
+
+
 .container_activité {
+   
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 3%;
-    object-fit: cover;
-    }
-
-.image_activité_1 {
-
-    
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    object-fit: cover;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
 }
 
-.image_activité_2 {
-    
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    object-fit: cover;
+.boxactivité_1 {
+    border-radius: 20px;
+    background-color: yellow;
+    height: fit-content;
 }
 
-.image_activité_3 {
-
-    
-    grid-column-start: 2;
-    grid-row-start: 2;
-    object-fit: cover;
+.imageactivité_1 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.imageactivité_2 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
-.image_activité_4 {
-
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    object-fit: cover;
+.boxactivité_3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.imageactivité_3 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.imageactivité_4 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.imageactivité_5 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.imageactivité_6 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
-.image_activité_5 {
 
-    grid-column-start: 4;
-    grid-row-start: 1;
-    object-fit: cover;
+
+.activités h2 {
+    padding: 40px 0 0;
 
 }
 
-.image_activité_6 {
 
-    grid-column-start: 4;
-    grid-row-start: 2;
-    object-fit: cover;
-}
+
+
+
 
                     /*FOOTER*/
 footer {

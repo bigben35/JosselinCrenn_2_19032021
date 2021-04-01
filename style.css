@@ -7,7 +7,7 @@ body {
 }
 
 #page {
-    margin: 3%;
+    margin: 0 3%;
 }
 
 h1 {
@@ -16,35 +16,46 @@ h1 {
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1.4em;
+    padding-left: 37px;
+    padding-top: 15px;
     
     
 }
 
 h3 {
-    font-size: 0.8em;
-    font-weight: bold;
-
+    font-size: 1.1em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    
 }
+
 
                                 /*HEADER*/
 header {
     display: flex;
     justify-content:space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
+#logo {
 
+    padding-top: 35px;
+
+}
 nav ul { 
     list-style-type: none;
     display: flex;
       
 }
 
+ul {
+    padding-inline-start: 0;
+}
+
 nav ul li {
 
-    justify-content: space-between;
-    padding: 35px;
+    padding: 35px 35px 0;
 }
 
 nav ul li:hover {
@@ -87,13 +98,19 @@ a {
         }
                                 
 .mapmarker {
-    background-color: #DEEBFF;
+    background-color: #F2F2F2;
     border: solid 1px #F2F2F2;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-size: 1.3em;
+    padding: 10px;
                                 
         }
+
+.mapmarker i {
+
+    color: black ;
+}
    
 .placeholder {
                                 
@@ -224,7 +241,7 @@ i {
 .container_hebergement {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    
     justify-content: space-evenly;
     row-gap: 40px;
     
@@ -232,44 +249,93 @@ i {
 
 
 .boxhebergement {
-    display: flex;
+    
     background-color: white;
     border-radius: 20px;
-    width: 16.5vw;
-    height: 13vw;
-    align-items: center;    
+    width: 27%;
+    height: 190px;
+    padding: 5px;    
 }
 
 .imagehebergement {
-    display: flex;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 120px;
     object-fit: cover;
-    
-    height: 8vw;
-    object-position: center;
+    width: 100%;
+
     }
 
+.titre_hebergement {
+    margin-left: 10px;
+}
+
+.titre_hebergement p {
+
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.affiche {
+    margin: 35px 38px;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
                         /*POPULAIRE*/
 
 .populaire {
         
         background-color: #F2F2F2;
         width: 33%;
+        border-radius: 20px;
     }
 
 #pop {
         display: flex;
-        justify-content: space-between;
+        align-items: baseline;
     }
 
+.container_pop {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+} 
+
+.boxpop {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+#pop i {
+    margin-left: 165px;
+    color: black;
+}
+
+.imagepop {
+    width: 37%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+    height: 130px;
+}
+
+.titrepop {
+    margin: 0 4px 0 20px;
+}
                     /* ACTIVITES*/
 
 .container_activité {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
-    width: 100%;
     grid-gap: 3%;
     object-fit: cover;
     }

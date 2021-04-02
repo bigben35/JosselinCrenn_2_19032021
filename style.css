@@ -12,7 +12,8 @@ body {
 
 h1 {
     font-size: 1.5em;
-    
+    margin-top: 30px;
+    margin-bottom: -10px;
 }
 
 h2 {
@@ -87,28 +88,32 @@ a:hover {
                                 /*SEARCH BAR*/
 
 #barrederecherche {
-        display: flex;
-        justify-content: baseline;
-        }
+    display: inline-block;
+    border: solid 1px #f2f2f2;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
 
 .bouton {
     background-color: #0065FC;
     color: white;
-    padding: 10px;
+    padding: 15px;
     border: #0065FC;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    
-        }
+    font-size: 0.9em;
+    margin-right: -41px;
+     }
                                 
 .mapmarker {
+    
     background-color: #F2F2F2;
     border: solid 1px #F2F2F2;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-size: 1.3em;
-    padding: 10px;
-                                
+    padding: 12px 15px 14px;
+    margin-left: -11px;
         }
 
 .mapmarker i {
@@ -117,8 +122,9 @@ a:hover {
 }
    
 .placeholder {
-                                
     border: none;
+    font-size: 0.9em;
+    padding-left: 10px;
             }
                                 
 input::placeholder {
@@ -127,6 +133,12 @@ input::placeholder {
     color: black;
         }
 
+.search {
+    margin-bottom: 25px;
+}
+.p_search {
+    margin-bottom: 25px;
+}
 
                                 /*FILTRES*/
 
@@ -140,17 +152,19 @@ input::placeholder {
 .info {
     display: flex;
     align-items: baseline;
+    margin: 15px;
 }
 
 .cercle {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    
+    width: 44px;
+    height: 41px;
+    border-radius: 22px;
     background-color: #DEEBFF;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -13px;
 }
 
 .cercle2 {
@@ -187,13 +201,19 @@ input::placeholder {
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
     align-items: center;
-}
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 20px; }
 
 .famille {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
     align-items: center;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -202,13 +222,17 @@ input::placeholder {
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
     align-items: center;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .animaux {
     display: flex;
     border: solid 2px #F2F2F2;
     border-radius: 20px 20px;
-    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 i {
@@ -469,37 +493,13 @@ i {
 
 
                     /*IMAGES HOVER TRANSFORM*/
-.boxhebergement:hover {
+.boxhebergement:hover, .boxpop:hover, .boxactivité_1:hover, .boxactivité_2:hover, .boxactivité_3:hover, .boxactivité_4:hover,
+ .boxactivité_5:hover, .boxactivité_6:hover, .éco:hover, .famille:hover, .rom:hover, .animaux:hover, .bouton:hover {
     -webkit-transform: scale(1.05);
+    -webkit-transition: all 0.5s ease;
     -moz-transform: scale(1.05);
-}
-.boxpop:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_1:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_2:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_3:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_4:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_5:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-}
-.boxactivité_6:hover {
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
+    -moz-transition: all 0.5s ease;
+    transform: scale(1.05);
 }
 
                     /*FOOTER*/

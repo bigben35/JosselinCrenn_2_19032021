@@ -79,6 +79,7 @@ a {
 .inscrire {
     color: #0065FC;
     font-weight: bold;
+
 }
 
 
@@ -491,11 +492,25 @@ i {
 
                     /*IMAGES HOVER TRANSFORM*/
 .boxhebergement:hover, .boxpop:hover, .boxactivité_1:hover, .boxactivité_2:hover, .boxactivité_3:hover, .boxactivité_4:hover,
- .boxactivité_5:hover, .boxactivité_6:hover, .éco:hover, .famille:hover, .rom:hover, .animaux:hover, .bouton:hover {
+ .boxactivité_5:hover, .boxactivité_6:hover, .bouton:hover {
     -webkit-transform: scale(1.05); 
     -moz-transform: scale(1.05);
     transform: scale(1.05) 
 }
+
+
+                    /*FILTRES HOVER TRANSFORM*/
+
+.éco:hover, .famille:hover, .rom:hover, .animaux:hover {
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #DEEBFF; 
+    
+}
+  
+
+
 
                     /*FOOTER*/
 footer {

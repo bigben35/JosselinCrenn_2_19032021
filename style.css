@@ -497,6 +497,14 @@ i {
     transform: scale(1.05) 
 }
 
+/*FILTRES HOVER TRANSFORM*/
+
+.éco:hover, .famille:hover, .rom:hover, .animaux:hover {
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #DEEBFF; 
+
                     /*FOOTER*/
 footer {
     display: flex;

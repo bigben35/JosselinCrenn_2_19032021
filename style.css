@@ -513,3 +513,74 @@ footer h3 {
 footer a {
     padding: 1% 0;
 }
+
+                                /*MEDIA QUERIES MAX 768PX (TABLETS)*/
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    .p_search {
+        font-size: 0.9em;
+    }
+    nav ul li {
+        padding: 35px 15px 0;
+    }
+    .mapmarker {
+        padding: 13px 15px 14px
+    }
+    .filtres {
+        margin-right: 1%;
+    }
+    .info p {
+        font-size: 0.8em;
+    }
+    #HEBERGEMENTS {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .marseille {
+        width: 100%;
+    }
+    .populaire {
+        flex-direction: row;
+        width: 100%;
+    }
+    .titre_pop {
+        padding-bottom: 3%;
+        padding-top: 6%;
+        padding-left: 8%;
+    }
+    .container_pop {
+        height: 515px;
+        row-gap: 20px;
+    }
+    .boxpop {
+        height: 29%;
+    }
+    .imagepop_3 {
+        width: 40%;
+        height: 100%;
+    }
+    .titre_activité {
+        padding: 6% 7%;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    .boxactivité_3 {
+        height: 42%;
+    }
+    .imageactivité_3 {
+        height: 71%;
+    }
+    .boxactivité_5 {
+        height: 47%;
+    }
+    .boxactivité_6 {
+        height: 48%;
+    }
+
+    footer a {
+        font-size: 0.8em;
+    }
+}

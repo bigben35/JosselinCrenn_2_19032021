@@ -49,6 +49,10 @@ header {
     padding-top: 35px;
 
 }
+.choix {
+    display: flex;
+    align-items: flex-end;
+}
 nav ul { 
     list-style-type: none;
     display: flex;
@@ -79,6 +83,11 @@ a {
 
 .inscrire {
     color: #0065FC;
+    font-weight: bold;
+    padding: 35px 35px 0;
+}
+.inscrire:hover {
+    border-top: solid #0065FC 2px;
     font-weight: bold;
 }
 
@@ -466,7 +475,7 @@ i {
 
                     /*IMAGES HOVER TRANSFORM*/
 .boxhebergement:hover, .boxpop:hover, .boxactivité_1:hover, .boxactivité_2:hover, .boxactivité_3:hover, .boxactivité_4:hover,
- .boxactivité_5:hover, .boxactivité_6:hover, .éco:hover, .famille:hover, .rom:hover, .animaux:hover, .bouton:hover {
+ .boxactivité_5:hover, .boxactivité_6:hover, .éco:hover, .famille:hover, .rom:hover, .animaux:hover, .bouton:hover, footer a:hover {
     -webkit-transform: scale(1.05); 
     -moz-transform: scale(1.05);
     transform: scale(1.05) 
@@ -526,6 +535,9 @@ footer a {
     nav ul li {
         padding: 35px 15px 0;
     }
+    .inscrire {
+        padding: 35px 15px 0;
+    }
     .mapmarker {
         padding: 13px 15px 14px
     }
@@ -583,4 +595,136 @@ footer a {
     footer a {
         font-size: 0.8em;
     }
+}
+
+
+                            /*MEDIA QUERIES MAX 576px ET MIN 320px*/
+
+@media screen and (max-width:576px) and (min-width:320px) {
+
+    header {
+        display: block;
+    }
+    #logo {
+        padding: 0;
+        height: 40px;
+    }
+    #logo img {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .choix {
+        display: block;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 20px;
+    }
+    .nav ul li {
+        padding: 0;
+    }
+    nav ul li:hover {
+        border-bottom: solid #0065FC 2px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        border-top: none;
+    }
+    .menu {
+        width: 50%;
+        text-align: center;
+    }
+    .inscrire {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
+    .inscrire:hover {
+        border-bottom: solid #0065FC 2px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        border-top: none;
+    }
+    /*.bouton {
+        background-image: <i class="fas fa-search"></i>;
+    }*/
+    #barrederecherche {
+        display: flex;
+        border: solid 1px #f2f2f2;
+        border-radius: 15px;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .search {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .mapmarker {
+        background-color: #F2F2F2;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 15px;
+    }
+    .placeholder {
+        border: none;
+        font-size: 0.9em;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .bouton {
+        font-size: 0em;
+        visibility: hidden;
+        position: absolute;
+        right: 3%;
+        padding: 2px;
+    }
+    .bouton i {
+        font-size: 16px;
+        visibility: visible;
+        background-color: #0065FC;
+        color: white;
+        padding: 16px 16px;
+        border: solid -2px #0065FC;
+        border-radius: 10px;
+    }
+    .Conteneur_filtre {
+        display: block;
+    }
+    .Conteneur_filtre h3 {
+        font-size: 0.9em;
+        padding-bottom: 4%;
+        padding-left: 1%;
+    }
+    .icones {
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .filtres {
+        display: flex;
+        border: solid 2px #F2F2F2;
+        border-radius: 20px 20px;
+        align-items: center;
+        /* margin-right: 2%; */
+        padding-left: 1%;
+        padding-right: 2%;
+        margin-left: 2%;
+        padding: 0px 10px;
+        margin-bottom: 2%;
+    }
+    .efra {
+        padding: 0 4%;
+    }
+    .info {
+        margin: 7% 0;
+    }
+    .cercle2 {
+        margin-right: 2%;
+    }
+
 }

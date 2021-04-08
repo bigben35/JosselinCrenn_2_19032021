@@ -726,5 +726,58 @@ footer a {
     .cercle2 {
         margin-right: 2%;
     }
+    #HEBERGEMENTS {
+        flex-direction: column-reverse;
+    }
+    .boxhebergement {
+        width: 100%;
+    }
+    .titre_hebergement {
+        padding-left: 3%;
+    }
+    .marseille {
+        margin-bottom: 4%;
+    }
+    .titre_marseille {
+        padding-bottom: 4%;
+        padding-top: 5%;
+    }
+    #container_activité {
+        display: block;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .boxactivité_1 {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .titre_activité {
+        padding: 3% 3%;
+        padding-top: 2%;
+    }
+    .groupe_1, .groupe_2 {
+        width: 100%;
+    }
+    .boxactivité_2 {
+        margin-bottom: 4%;
+    }
+    .activités img {
+        height: 130px;
+    }
+    .boxactivité_3, .boxactivité_5 {
+        margin-bottom: 4%;
+    }
+    .boxactivité_4 {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    footer {
+        flex-direction: column;
+        padding-left: 4%;
+    }
+    .àpropos, .noshebergements, .assistance {
+        width: 100%;
+        margin-bottom: 8%;
+    }
 
 }

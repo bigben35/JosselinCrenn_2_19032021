@@ -203,7 +203,7 @@ input::placeholder {
     border-radius: 20px 20px;
     align-items: center;
     margin-right: 2%;
-    padding-left: 1%;
+    padding-left: 0.5%;
     padding-right: 2%;
     margin-left: 2%;
 }
@@ -694,6 +694,11 @@ footer a {
         border: solid 1px #0065FC;
         border-radius: 10px;
     }
+    .bouton:hover {
+        -webkit-transform: scale(1.05); 
+        -moz-transform: scale(1.05);
+        transform: scale(1.05) 
+    }
     .Conteneur_filtre {
         display: block;
     }
@@ -783,4 +788,17 @@ footer a {
         margin-bottom: 8%;
     }
 
+}
+
+                            /*MEDIA QUERIES MAX 428px ET MIN 338px*/
+                            
+@media screen and (max-width: 428px) and (min-width:338px) {
+    .filtres {
+        padding: 0 8px;
+    }
+    .efra {
+        padding: 5px 10px;
+    }
+}
+    
 }

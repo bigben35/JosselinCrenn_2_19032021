@@ -461,10 +461,7 @@ i {
     padding-left: 0;
 
 }
-.activités h2:hover{
- color: maroon;
- font-size: 25px;
-}
+
 .titre_activité {
     padding: 4% 6%;
     font-weight: bold;
@@ -769,7 +766,7 @@ footer a {
     .boxactivité_2 {
         margin-bottom: 4%;
     }
-    .activités img {
+    #activités img {
         height: 130px;
     }
     .boxactivité_3, .boxactivité_5 {
